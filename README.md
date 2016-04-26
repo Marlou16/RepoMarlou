@@ -1,8 +1,11 @@
-This repository contains different project / folders with available code.
-At this moment, this folder contains:
+Deze map bevat wat onderdelen voor de `fun` en een verzameling van wetenschappelijke werken die ik heb gemaakt tijdens mijn studie Informatica (Bachelor) en Double Degree (Master) Computer Science - Software Technology & Electrical Engineering - Telecommunications.
 
-* MATLAB code (including used packages) for the both assignments for _ET4389 - Complex Networks_.
-Note that the report concluding this assignment is not included.
-* A zip-file containing only the code used for the first assignment of the course named above.
-* A zip-file containing only the code used for the second assignment of the course named above.
-* The picture of Count Dracula.
+`fun`:
+* The picture of Count Dracula
+* An implementation of the 2048 game with tiles containing pictures of myself. (Playable via download and opening index.html)
+
+`werken`:
+* Een geïllustreerd overzicht van alle vakken voor mijn Double Degree en hoe deze tot elkaar in relatie staan.
+* Een uitgebreide samenvatting van computer netwerken en protocollen, als resultaat van de verschillende vakken in deze richting
+* Werken gemaakt in de Bachelor fase (incl. verslag van het bachelor eindproject)
+* Werken gemaakt in de Master fase
