@@ -6,4 +6,3 @@ Note that the report concluding this assignment is not included.
 * A zip-file containing only the code used for the first assignment of the course named above.
 * A zip-file containing only the code used for the second assignment of the course named above.
 * The picture of Count Dracula.
-* A 2048 game with tiles made from pictures of me.
