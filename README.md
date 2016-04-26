@@ -1,4 +1,4 @@
-Deze map bevat wat onderdelen voor de `fun` en een verzameling van wetenschappelijke werken die ik heb gemaakt tijdens mijn studie Informatica (Bachelor) en Double Degree (Master) Computer Science - Software Technology & Electrical Engineering - Telecommunications.
+Deze map bevat wat onderdelen voor de `fun` en een verzameling van wetenschappelijke `werken` die ik heb gemaakt tijdens mijn studie Informatica (Bachelor) en Double Degree (Master) Computer Science - Software Technology & Electrical Engineering - Telecommunications.
 
 `fun`:
 * The picture of Count Dracula
