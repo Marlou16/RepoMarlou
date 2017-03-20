@@ -1,13 +1,13 @@
-filter out stuff (RYU-POX VM)
-	of and (!of13.echo_reply.length > 0 and !of13.echo_request.length > 0)
+### WIRESHARK filtering for OpenFlow (1.3)
 
-filter out stuff (SDNHUB VM)
-	openflow_v4 and openflow_v4.type != ofpt_echo_reply and openflow_v4.type != ofpt_echo_request
+* in the _Mininet VM_ running the _RYU_ controller:  
+`of and (!of13.echo_reply.length > 0 and !of13.echo_request.length > 0)`
+* in the _SDNHUB VM_ running the _RYU_ controller:  
+`openflow_v4 and openflow_v4.type != ofpt_echo_reply and openflow_v4.type != ofpt_echo_request`
+* in the _SDNHUB VM_ running the _ODL_ controller (or others with multipart messages):  
+`openflow_v4 and openflow_v4.type != ofpt_multipart_request and openflow_v4.type != ofpt_multipart_reply`
 
-filter out stuff (SDNHUB VM ODL)
-openflow_v4 and openflow_v4.type != ofpt_multipart_request and openflow_v4.type != ofpt_multipart_reply
 
-
-
-OTHER NOTE
-PYTHONPATH=. ./bin/ryu-manager ./ryu/app/simple_switch_13.py --verbose --ctl-privkey /etc/openvswitch/ctl-privkey.pem  --ctl-cert /var/openvswitch/ctl-cert.pem --ca-certs /var/lib/openvswitch/pki/switchca/cacert.pem
+### Random Tips
+* The layout is to set via `Edit` -> `Preferences`
+* **Debug as** Is to find via right click on a packet.
