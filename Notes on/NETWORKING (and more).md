@@ -57,7 +57,8 @@
 **HOST-ONLY**:
 * Virtual machines can talk to each other (and the host) as if they are connected through a physical Ethernet switch.
 * They are not(!) connected to a physical networking interface, thus the VMs cannot talk to the outside world.
-* A new software interface is created which appears next to existing network interfaces.
+* A new software interface is created which appears next to existing network interfaces.  
+
 **NAT**:
 * A VM with NAT enabled acts much like a real computer that connects to the Internet through a router.
 * The 'router' is the hypervisor (i.e. VirtualBox) network engine, which maps traffic from and to the VM transparently.

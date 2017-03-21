@@ -9,7 +9,7 @@ Important is to see that you should not use spaces!
 * You can break or fix a link via `link <startnode> <endnode> down/up`
 
 * _iperf_ via the xterminals of two hosts:  
-  @h2 `iperf -s -u -p 5555 -i 1`
+  @h2 `iperf -s -u -p 5555 -i 1`  
   @h1 `iperf -c 10.0.0.2 -p 5555 -u -b 100M -t 10`
 
 * For a list of connections at port 6633, do (in an external terminal):  
@@ -18,7 +18,7 @@ Important is to see that you should not use spaces!
 * xterm 'c0' gives a terminal on the 'localhost'/VM, because a socket-connection in Wireshark gives this IP address as the source.
 
 
-#### OFCTL and OVSCTL:
+### OFCTL and OVSCTL:
 The `ovs-ofctl` program is a command line tool for monitoring and administering OpenFlow Switches.
 It can also show the current state of an OF switch, including features, configuration and table entries.
 the `ovs-vsctl` program configures ovs-switchd(8) by providing a high-level interface to its configuration database.

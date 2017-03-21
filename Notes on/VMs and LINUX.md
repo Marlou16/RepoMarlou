@@ -23,7 +23,7 @@ Note that some (acutally most) points are also generally applicable in LINUX OSe
 * _DISABLE IPV6_:  
   `sudo apt-get purge network-manager avahi-daemon`  
   `sudo apt-get --purge autoremove`  
-  In `/etc/default/grub/` edit such that *GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1 <resttext>"*
+  In `/etc/default/grub/` edit such that *GRUB_CMDLINE_LINUX_DEFAULT="ipv6.disable=1 <resttext>"*  
   `sudo update-grub`  
   reboot!
 

@@ -17,7 +17,7 @@ Usefull commands and installation tips. Also something about TLS configuration :
   Note that here only the LLDP messages (<dl_type=0x88cc>) arrive at the controller. 
 
 
-### ONOS ^
+### ONOS
 * Running ONOS on the clean VM of Ficky:  
   `source ~/onos/tools/dev/bash_profile`  
   `ok clean`
@@ -25,7 +25,7 @@ Usefull commands and installation tips. Also something about TLS configuration :
 * ONOS has focused on the service providers' needs, which landed it a role as a local controller for AT&T.
 
 
-### OpenDaylight (ODL) ^
+### OpenDaylight (ODL)
 * Speedup your compliations: `mvn install -DskipTests -DskipIT -nsu`
 * Finding the controller run (Karaf) file:  (SDNHUB version)
   `SDNHub_Opendaylight_Tutorial/distribution/opendaylight-karaf/target/assembly/bin/karaf`

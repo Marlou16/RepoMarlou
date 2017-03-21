@@ -9,4 +9,4 @@
 
 ### Random Tips
 * The layout is to set via `Edit` -> `Preferences`
-* **Debug as** Is to find via right click on a packet.
+* **Debug as** is to find via right click on a packet.

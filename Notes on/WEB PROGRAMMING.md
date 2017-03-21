@@ -1,6 +1,6 @@
 ## Information on the Web Programming folder ##
 
-This Web Programming folder contains the files created during the Udacity Coruses:
+My Web Programming folder contains the files created during the Udacity Coruses:
 
 	*Intro to HTML and CSS*
 	*JavaScript Basics*

@@ -1,21 +1,18 @@
-## Information on the HADOOP folder ##
+In this document I collect some learning notes from the course(s):
 
-This HADOOP folder contains the files created during the Udacity Course: 
+		Introduction to Hadoop and MapReduce
 
-				*Introduction to Hadoop and MapReduce*
 
-In this document I collect some learning notes from this course. :)
-
-### ----- Remarks on Big Data ----- ###
-/*	Hadoop and MapReduce are mostly used on _Big Data_, data which is too large to process on a single machine.
+### Remarks on Big Data
+*	Hadoop and MapReduce are mostly used on _Big Data_, data which is too large to process on a single machine.
 *	Challenges with Big Data are:
 		-> data is created fast
 		-> data comes in from different sources, having different formats
 	In this sense, one couples big data with the _3 V's_: Volume, Variety, Velocity
 
 
-### ----- Remarks on HADOOP ----- ###
-/*	Shortly: **Hadoop stores data in a distributed way across multiple machines**
+### Remarks on HADOOP
+*	Shortly: **Hadoop stores data in a distributed way across multiple machines**
 *	Officially we have HDFS, the *Hadoop Distributed File System*
 *	Hadoop was originally part of an open source project called *Nutch*.
 *	The name Hadoop comes from the stuffed elephant Doug Cutting's son played with.
