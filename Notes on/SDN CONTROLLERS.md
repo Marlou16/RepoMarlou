@@ -27,9 +27,9 @@ Usefull commands and installation tips. Also something about TLS configuration :
 
 ### OpenDaylight (ODL)
 * Speedup your compliations: `mvn install -DskipTests -DskipIT -nsu`
-* Finding the controller run (Karaf) file:  (SDNHUB version)
+* Finding the controller run (Karaf) file:  (SDNHUB version)  
   `SDNHub_Opendaylight_Tutorial/distribution/opendaylight-karaf/target/assembly/bin/karaf`
-* Reaching the GUI via:  `http://localhost:8181/index.html#/topology` [admin/admin]
+* Reaching the GUI via:  `http://localhost:8181/index.html#/topology` [admin/admin]  
   If unsure, use `http:list | grep dlux`.
 * problems with the pom.xml (or related)? See the ODL tutorial and Try:  
   `wget -q -O - https://raw.githubusercontent.com/opendaylight/odlparent/master/settings.xml > ~/.m2/setting.xml`
