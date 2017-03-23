@@ -1,17 +1,6 @@
-## Information on the SHELL Folder ##
+## Notes on Course 1. Linux Command Line Basics
 
-This folder contains the 'link' to the Ubunty Trusty 64, Linux OS VM via Vagrant.
-This VM is used for the following Udacity Course(s):
-	1. Udacity - Linux Command Line Basics (29-07-2016)
-
-We can use the virtual machine via the following commands:
-	- `vagrant up` (start up the VM)
-	- `vagrant ssh` (login into the VM) (`exit` or _Ctrl+D_ for logout)
-
-
-### ----- Notes on Course 1. Linux Command Line Basics ----- ###
-
-/* 	The VM does have Python 2.7.6 installed :)
+* 	The VM does have Python 2.7.6 installed :)
 *	We can use several terminals (in Windows Git Bash for example) to log into the VM
 * 	When having a ' in a command (by typing plain Marlou's course) 
 	the command line waits until the next ' is typed (which is very logical)
@@ -25,7 +14,7 @@ We can use the virtual machine via the following commands:
 *	`history` gives you the last 15 commands.
 * 	`rm <weirdfile.txt>` you can also do in **Python** via `>>> os.remove('weirdfile.txt')`
 
-/*	`cat` is your go-to command to read short (.txt) files.
+*	`cat` is your go-to command to read short (.txt) files.
 	(`cat` is short for _concatenate_, you can also argument more than one file)
 *	analyzing commands are `wc` (one argument) and `diff` (two arguments)
 	in the `diff` output the < or > points to the file which contains the change
@@ -48,7 +37,7 @@ We can use the virtual machine via the following commands:
 	which are terminal based editors.
 *	`^X` actually means _Ctrl+X_
 
-/*	Windows uses on default the `\` to seperate folders, while all others use `/`, 
+*	Windows uses on default the `\` to seperate folders, while all others use `/`, 
 	and the `\` is the _escape character_
 *	`/` is the root directory and `~/` is your home directory
 *	`pwd` command means print working directory. (_cwd_ means current working directory!)
@@ -57,3 +46,5 @@ We can use the virtual machine via the following commands:
 *	`rmdir` is only possible on empty dir, removing a dir incl contents, use `rm -r <dirname>`
 *	you can give a pattern to `ls` to list all found results following the pattern
 	i.e. `ls *png` gives you all .png files :) <- this is called **GLOBBING** (`man glob`)
+	
+*	Try `history` :)
