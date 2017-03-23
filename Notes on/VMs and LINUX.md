@@ -3,8 +3,8 @@ Note that some (acutally most) points are also generally applicable in LINUX OSe
 
 ### Package and VM Setup related notes
 * Installing a simple _GUI_ for your (empty) VM, `LXDE`:  
-  `sudo apt-get install lxde-common lxsession openbox xinit lxterminal`
-  And to fix the resolution when enlarging the VM window, there is `lxrandr`
+  `sudo apt-get install lxde-common lxsession openbox xinit lxterminal`  
+  To fix the 'resolution' when enlarging the VM window, try `lxrandr` and/or `open-vm-tools-desktop` (VMWare)
 * A simple _web-browser_ is the package `chromium-browser`.
 * To build a _network view_ one probably need the `networkx` library/package.
 * To see the OVSwitch version (SDN specific): `ovs-vswitchd --version` or `ovs-ofctl --version`.
