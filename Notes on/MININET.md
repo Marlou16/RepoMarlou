@@ -2,11 +2,12 @@
 Mostly with commands which come in handy (such as `ovs-ofctl` commands).
 Important is to see that you should not use spaces!
 
-* Try `sudo mn -h`
+* Try `sudo mn -h`  
 * Run a general MININET topology:  
 `sudo mn --topo single,4 --controller remote,ip=127.0.0.1,port=6633 --switch ovsk,protocols=OpenFlow13 --mac`
 * Usefull mininet commandos: `nodes` `net` `dump`
 * You can break or fix a link via `link <startnode> <endnode> down/up`
+* `-v output` let's you miss the large output of 'connection hosts' and stuff.
 
 * _iperf_ via the xterminals of two hosts:  
   @h2 `iperf -s -u -p 5555 -i 1`  
@@ -14,8 +15,11 @@ Important is to see that you should not use spaces!
 
 * For a list of connections at port 6633, do (in an external terminal):  
   `netstat -anp | grep 6633`
-
 * xterm 'c0' gives a terminal on the 'localhost'/VM, because a socket-connection in Wireshark gives this IP address as the source.
+
+* When you don't want to contact a controller and simulate a 'traditional' network:  
+  `sudo mn --topo single,5 --controller remote (-v output)`  
+  `sh ovs-vsctl set-fail-mode s1 standalone`
 
 
 ### OFCTL and OVSCTL:
