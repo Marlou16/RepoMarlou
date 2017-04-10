@@ -5,6 +5,9 @@
 * When having a ' in a command (by typing plain Marlou's course)   
   the command line waits until the next ' is typed (which is very logical)
 * `ls` is short for _list_, did you know?
+* `lsusb` gives you all recognized usb devices
+* `./` actually means 'execute'
+* `sudo !!` means that you want to execute the previous command as sudo.
 * A cool 'Course' program is `cowsay`  
     -> `apt-get/yum install cowsay`  
     -> `cowsay <str>`
