@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.marlou.app.AppComponentTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.429 s <<< FAILURE! - in org.marlou.app.AppComponentTest
+basics(org.marlou.app.AppComponentTest)  Time elapsed: 0.286 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.marlou.app.AppComponentTest.setUp(AppComponentTest.java:32)
+
+basics(org.marlou.app.AppComponentTest)  Time elapsed: 0.288 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.marlou.app.AppComponentTest.tearDown(AppComponentTest.java:38)
+
